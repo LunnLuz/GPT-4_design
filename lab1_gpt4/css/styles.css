@@ -360,13 +360,13 @@ p {
 /*Превосходя все ожидания*/
 
 
-.exceeding__all__expectations{
+.exceeding_all_expectations{
 display: flex;
 column-gap: 2rem;
 margin: 0 0 2rem;
 }
 
-.exceeding__all__expectations .exceeding__all__expectations__right{
+.exceeding_all_expectations .exceeding_all_expectations__right{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -375,17 +375,19 @@ margin: 0 0 2rem;
   flex: 2;
 }
 
-.exceeding__all__expectations .exceeding__all__expectations__right .container__right{
+.exceeding_all_expectations .exceeding_all_expectations__right .container__right{
   color: #81afdd;
   font-size: 16px;
   line-height: 1.8;
 }
 
 
-.exceeding__all__expectations .exceeding__all__expectations__right .cta__right {
+.exceeding_all_expectations .exceeding_all_expectations__right .cta__right {
   color: #f49867;
   border-bottom: 1px solid transparent;
 }
+
+
 
 
 
