@@ -111,7 +111,7 @@ h3 {
   font-size: 24px;
 }
 
-h_4{
+h4{
   font-family: "Manrope", sans-serif;
   color: #000;
   font-size: 24px;
@@ -406,13 +406,13 @@ p {
 /*Превосходя все ожидания*/
 
 
-.exceeding__all__expectations {
+.exceeding_all_expectations {
   display: flex;
   column-gap: 2rem;
   margin: 0 0 2rem;
 }
 
-.exceeding__all__expectations .exceeding__all__expectations__right {
+.exceeding_all_expectations .exceeding_all_expectations__right {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -421,14 +421,14 @@ p {
   flex: 2;
 }
 
-.exceeding__all__expectations .exceeding__all__expectations__right .container__right {
+.exceeding_all_expectations .exceeding_all_expectations__right .container__right {
   color: #81afdd;
   font-size: 16px;
   line-height: 1.8;
 }
 
 
-.exceeding__all__expectations .exceeding__all__expectations__right .cta__right {
+.exceeding_all_expectations .exceeding_all_expectations__right .cta__right {
   color: #f49867;
   border-bottom: 1px solid transparent;
 }
@@ -734,11 +734,13 @@ p {
   flex-direction: row;
   column-gap: 32px;
   margin: 154px 0;
+  padding: 35px;
 }
 .registration_panel .registration_panel_center .left__cta{
-  padding: 10px 10px;
+  padding: 0;
   font-size: 12px;
 }
+
 
 /* Медиа запросы для адаптива */
 
