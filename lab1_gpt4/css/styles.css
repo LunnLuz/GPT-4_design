@@ -43,13 +43,22 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
+
 b {
   color: #0E0E0E;
   text-decoration: none;
   cursor: pointer;
 }
 
-a, b,
+b {
+  color: #0E0E0E;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a,
+b,
+h5,
 button {
   cursor: pointer;
   transition: all 0.3s ease-out;
@@ -59,7 +68,9 @@ button {
   -o-transition: all 0.3s ease-out;
 }
 
-a:hover, b:hover,
+a:hover,
+b:hover,
+h5:hover,
 button:hover {
   transition: all 0.3s ease-out;
   -webkit-transition: all 0.3s ease-out;
@@ -95,7 +106,7 @@ h2 {
 }
 
 h3 {
-  font-family: "ManropeBold", sans-serif;
+  font-family: "Manrope", sans-serif;
   color: #fff;
   font-size: 24px;
 }
@@ -105,6 +116,20 @@ h_4{
   color: #000;
   font-size: 24px;
 
+}
+
+h5 {
+  font-family: "ManropeLight", sans-serif;
+  color: #fff;
+  cursor: pointer;
+  font-size: 12px;
+  opacity: 70%;
+}
+
+h6 {
+  font-family: "ManropeLight", sans-serif;
+  color: #fff;
+  font-size: 14px;
 }
 
 p {
@@ -123,7 +148,7 @@ p {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
-  -o-border-radius: 5px;  
+  -o-border-radius: 5px;
 }
 
 .primary-btn {
@@ -317,10 +342,7 @@ p {
   row-gap: 2rem;
 }
 
-.what_is_chatgpt_section
-  .what_is_chatgpt_section__bottom
-  .bottom__container
-  .container__content {
+.what_is_chatgpt_section .what_is_chatgpt_section__bottom .bottom__container .container__content {
   color: #81afdd;
   font-size: 14px;
   line-height: 1.8;
@@ -384,55 +406,339 @@ p {
 /*Превосходя все ожидания*/
 
 
-.exceeding_all_expectations{
-display: flex;
-column-gap: 2rem;
-margin: 0 0 2rem;
+.exceeding__all__expectations {
+  display: flex;
+  column-gap: 2rem;
+  margin: 0 0 2rem;
 }
 
-.exceeding_all_expectations .exceeding_all_expectations__right{
+.exceeding__all__expectations .exceeding__all__expectations__right {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   margin-top: 17.5rem;
-  row-gap: 2rem;  
+  row-gap: 2rem;
   flex: 2;
 }
 
-.exceeding_all_expectations .exceeding_all_expectations__right .container__right{
+.exceeding__all__expectations .exceeding__all__expectations__right .container__right {
   color: #81afdd;
   font-size: 16px;
   line-height: 1.8;
 }
 
 
-.exceeding_all_expectations .exceeding_all_expectations__right .cta__right {
+.exceeding__all__expectations .exceeding__all__expectations__right .cta__right {
   color: #f49867;
   border-bottom: 1px solid transparent;
 }
 
-/*Зарегистрируйтесь и начните исследовать безграничные возможности.*/
+.exceeding_all_expectations .exceeding_all_expectations__right a:hover {
+  border-bottom: 1px solid #f49867;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
 
+
+/*Шагнуть в Будущее*/
+
+.step_into_the_future {
+  display: flex;
+  flex-direction: column;
+  margin: 196px 0 0px;
+}
+
+.step_into_the_future .step_into_the_futur__heading__middle {
+  display: flex;
+  white-space: pre-line;
+  text-align: center;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.step_into_the_future .step_into_the_futur__button__middle {
+  display: flex;
+  align-items: flex-start;
+  margin: 0 auto 180px;
+  margin-top: 4rem;
+  justify-content: space-between;
+}
+
+.btn_itf{
+  display: flex;
+  font-family: "ManropeLight", sans-serif;
+  color: #fff;
+  opacity: 70%;
+  font-size: 18px;
+  padding: 1rem 2rem;
+  background-color: transparent;
+  background-color: #031B34;
+  border: 1px solid #fff;
+}
+
+.btn_itf:hover{
+  display: flex;
+  font-family: "ManropeLight", sans-serif;
+  color: #fff;
+  opacity: 100%;
+  font-size: 18px;
+  padding: 1rem 2rem;
+  background-color: transparent;
+  background-color: #ae67fa;
+  border: 1px solid #fff;
+}
+
+.step_into_the_future .step_into_the_future__basement h5{
+  color: #fff;
+  border-bottom: 1px solid transparent;  
+}
+
+.step_into_the_future .step_into_the_future__basement h5:hover{
+  opacity: 100%;
+  border-bottom: 1px solid transparent;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.step_into_the_future .step_into_the_future__logo {
+  left: -40;
+  flex: 288px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.step_into_the_future .step_into_the_future__basement {
+  display: flex;
+  column-gap: 2rem;
+}
+.step_into_the_future  .step_into_the_future_address {
+  white-space: pre-line;
+}
+
+.step_into_the_future .step_into_the_future_links {
+  flex: 180px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 34px;
+}
+
+.step_into_the_future .indoor_unit_links {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+
+.step_into_the_future .step_into_the_future_company {
+  flex: 141px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 34px;
+}
+
+.step_into_the_future .indoor_unit_company {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+
+.step_into_the_future .step_into_the_future_contacts {
+  display: flex;
+  flex-direction: column;
+  row-gap: 34px;
+}
+
+.step_into_the_future .indoor_unit_contacts {
+  flex: 180px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+
+.step_into_the_future .address {
+  white-space: pre-line;
+}
+
+/* Копирайт */
+
+.foolder {
+  display: flex;
+}
+
+.foolder .copyright {
+  background-color: #040C18;
+  text-align: center; 
+  overflow: auto;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+/*Многое происходит, Мы Ведем об Этом Блог.*/
+
+.blog_of_news {
+  display: flex;
+  flex-direction: column;
+  width: 1171px;
+  height: 961px;
+  margin-top: 154.35px;
+}
+
+
+.blog_of_news .blog_of_news_text {
+  white-space: pre-line;
+}
+
+
+.blog_of_news .blog_of_news_5containers {
+  display: flex;
+  flex-direction: row;
+  column-count: 3;
+  column-gap: 48px;
+  margin-top: 115.79px;
+  width: 1170.66px;
+  height: 695.21px;
+}
+
+/*1 контейнер*/
+
+.blog_of_news_5containers_1newscontainer {
+  width: 418.2px;
+  height: 695.21px;
+}
+
+.blog_of_news_5containers_1newstextonground {
+  display: flex;
+  flex-direction: column;
+  width: 417.03px;
+  height: 406.71px;
+}
+
+
+.blog_of_news_5containers_1newstextonground_top {
+  width: 357px;
+  height: 34.95px;
+  margin: 32.27px 0px 0px 25.49px;
+}
+
+
+.blog_of_news_5containers_1newstextonground_middle {
+  width: 342.18px;
+  height: 90.74px;
+  margin: 0.25px 0px 0px 25.63px;
+}
+
+
+.blog_of_news_5containers_1newstextonground_bottom {
+  width: 148px;
+  height: 34.95px;
+  margin: 186.64px 0px 0px 25.49px;
+}
+
+/*группа*/
+
+.blog_of_news_5containers_group {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.blog_of_news_5containers_group1 {
+  display: flex;
+  flex-direction: row;
+  column-count: 2;
+  column-gap: 48px;
+}
+
+.blog_of_news_5containers_group2 {
+  display: flex;
+  flex-direction: row;
+  column-count: 2;
+  column-gap: 48px;
+}
+
+
+/*2 контейнер*/
+
+.blog_of_news_5containers_2newscontainer {
+  margin-left: 49.51;
+  width: 327.34px;
+  height: 323.84px;
+}
+
+.blog_of_news_5containers_2newstextonground {
+  width: 284.32px;
+  height: 173px;
+}
+
+/*3 контейнер*/
+
+.blog_of_news_5containers_3newscontainer {
+  margin-left: 49.51;
+  width: 327.34px;
+  height: 323.84px;
+}
+
+.blog_of_news_5containers_3newstextonground {
+  width: 284.32px;
+  height: 173px;
+}
+
+/*4 контейнер*/
+
+.blog_of_news_5containers_4newscontainer {
+  margin-left: 49.51;
+  width: 327.34px;
+  height: 323.84px;
+}
+
+.blog_of_news_5containers_4newstextonground {
+  width: 284.32px;
+  height: 173px;
+}
+
+/*5 контейнер*/
+
+.blog_of_news_5containers_5newscontainer {
+  margin-left: 49.51;
+  width: 327.34px;
+  height: 323.84px;
+}
+
+.blog_of_news_5containers_5newstextonground {
+  display: flex;
+  flex-direction: column;
+  width: 284.32px;
+  height: 173px;
+}
+
+
+.bigground {
+  background: url("../assets/img/bignewsground.svg");
+}
+
+
+.smallground {
+  background: url("../assets/img/smallnewsground.svg");
+}
+
+/*Зарегистрируйтесь и начните исследовать безграничные возможности.*/
 .registration_panel{
   display: flex;
   flex-direction: row;
   column-gap: 32px;
   margin: 154px 0;
-
 }
-
 .registration_panel .registration_panel_center .left__cta{
+  padding: 10px 10px;
   font-size: 12px;
 }
-
-.registration_panel .registration_panel_center .left__cta{
-  padding: 10px 10px ;
-}
-
-
-
-
-
 
 /* Медиа запросы для адаптива */
 
