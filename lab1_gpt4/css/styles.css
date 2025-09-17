@@ -100,11 +100,11 @@ h3 {
   font-size: 24px;
 }
 
-h4{
-  font-family: "ManropeBold", sans-serif;
+h_4{
+  font-family: "Manrope", sans-serif;
   color: #000;
-  background: linear-gradient(90deg, #ae67fa 1.84%, #f49867 102.67%);
   font-size: 24px;
+
 }
 
 p {
@@ -131,8 +131,9 @@ p {
 }
 
 .black-btn {
+  padding: 15px 63px;
   background-color: #000;
-  border-radius: 40px;  
+  border-radius: 40px;
 }
 
 
@@ -143,6 +144,11 @@ p {
 
 .lined_header {
   background: url("../assets/img/gradient_line.svg") no-repeat 0 0 transparent;
+  padding: 1rem 0;
+}
+
+.buttom_header {
+  background: url("../assets/img/rectangle 26.svg") no-repeat 0 0 transparent;
   padding: 1rem 0;
 }
 
@@ -409,20 +415,18 @@ margin: 0 0 2rem;
 
 .registration_panel{
   display: flex;
-  flex-direction: column;
-  /*padding: 3rem;
-  margin: 6rem 0;
-  row-gap: 7rem;*/
+  flex-direction: row;
+  column-gap: 32px;
+  margin: 154px 0;
+
 }
 
-.registration_panel .registration_panel_text .registration__panel__left__up_text{
+.registration_panel .registration_panel_center .left__cta{
   font-size: 12px;
 }
 
-.registration_panel .registration_panel_text .right__cta_buttons {
-  display: flex;
-  justify-content: space-between;
-  align-items: end;
+.registration_panel .registration_panel_center .left__cta{
+  padding: 10px 10px ;
 }
 
 
