@@ -45,6 +45,7 @@ a {
 }
 
 a,
+h5,
 button {
   cursor: pointer;
   transition: all 0.3s ease-out;
@@ -55,6 +56,7 @@ button {
 }
 
 a:hover,
+h5:hover,
 button:hover {
   transition: all 0.3s ease-out;
   -webkit-transition: all 0.3s ease-out;
@@ -90,9 +92,23 @@ h2 {
 }
 
 h3 {
-  font-family: "ManropeBold", sans-serif;
+  font-family: "Manrope", sans-serif;
   color: #fff;
   font-size: 24px;
+}
+
+h5 {
+  font-family: "ManropeLight", sans-serif;
+  color: #fff;
+  cursor: pointer;
+  font-size: 12px;
+  opacity: 70%;
+}
+
+h6 {
+  font-family: "ManropeLight", sans-serif;
+  color: #fff;
+  font-size: 14px;
 }
 
 p {
@@ -360,13 +376,13 @@ p {
 /*Превосходя все ожидания*/
 
 
-.exceeding_all_expectations{
+.exceeding_all_expectations {
 display: flex;
 column-gap: 2rem;
 margin: 0 0 2rem;
 }
 
-.exceeding_all_expectations .exceeding_all_expectations__right{
+.exceeding_all_expectations .exceeding_all_expectations__right {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -375,21 +391,164 @@ margin: 0 0 2rem;
   flex: 2;
 }
 
-.exceeding_all_expectations .exceeding_all_expectations__right .container__right{
+.exceeding_all_expectations .exceeding_all_expectations__right .container__right {
   color: #81afdd;
   font-size: 16px;
   line-height: 1.8;
 }
-
 
 .exceeding_all_expectations .exceeding_all_expectations__right .cta__right {
   color: #f49867;
   border-bottom: 1px solid transparent;
 }
 
+.exceeding_all_expectations .exceeding_all_expectations__right a:hover {
+  border-bottom: 1px solid #f49867;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
 
 
+/*Шагнуть в Будущее*/
 
+.step_into_the_future {
+  display: flex;
+  flex-direction: column;
+  margin: 196px 0 0px;
+}
+
+.step_into_the_future .step_into_the_futur__heading__middle {
+  display: flex;
+  white-space: pre-line;
+  text-align: center;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.step_into_the_future .step_into_the_futur__button__middle {
+  display: flex;
+  align-items: flex-start;
+  margin: 0 auto 180px;
+  margin-top: 4rem;
+  justify-content: space-between;
+}
+
+.btn_itf{
+  display: flex;
+  font-family: "ManropeLight", sans-serif;
+  color: #fff;
+  opacity: 70%;
+  font-size: 18px;
+  padding: 1rem 2rem;
+  background-color: transparent;
+  background-color: #031B34;
+  border: 1px solid #fff;
+}
+
+.btn_itf:hover{
+  display: flex;
+  font-family: "ManropeLight", sans-serif;
+  color: #fff;
+  opacity: 100%;
+  font-size: 18px;
+  padding: 1rem 2rem;
+  background-color: transparent;
+  background-color: #ae67fa;
+  border: 1px solid #fff;
+}
+
+.step_into_the_future .step_into_the_future__basement h5{
+  color: #fff;
+  border-bottom: 1px solid transparent;  
+}
+
+.step_into_the_future .step_into_the_future__basement h5:hover{
+  opacity: 100%;
+  border-bottom: 1px solid transparent;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.step_into_the_future .step_into_the_future__logo {
+  left: -40;
+  flex: 288px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.step_into_the_future .step_into_the_future__basement {
+  display: flex;
+  column-gap: 2rem;
+}
+.step_into_the_future  .step_into_the_future_address {
+  white-space: pre-line;
+}
+
+.step_into_the_future .step_into_the_future_links {
+  flex: 180px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 34px;
+}
+
+.step_into_the_future .indoor_unit_links {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+
+.step_into_the_future .step_into_the_future_company {
+  flex: 141px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 34px;
+}
+
+.step_into_the_future .indoor_unit_company {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+
+.step_into_the_future .step_into_the_future_contacts {
+  display: flex;
+  flex-direction: column;
+  row-gap: 34px;
+}
+
+.step_into_the_future .indoor_unit_contacts {
+  flex: 180px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+
+.step_into_the_future .address {
+  white-space: pre-line;
+}
+
+/* Копирайт */
+
+.foolder {
+  display: flex;
+}
+
+.foolder .copyright {
+  background-color: #040C18;
+  text-align: center; 
+  overflow: auto;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
 
 /* Медиа запросы для адаптива */
 
