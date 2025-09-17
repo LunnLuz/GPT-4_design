@@ -43,8 +43,13 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
+b {
+  color: #0E0E0E;
+  text-decoration: none;
+  cursor: pointer;
+}
 
-a,
+a, b,
 button {
   cursor: pointer;
   transition: all 0.3s ease-out;
@@ -54,7 +59,7 @@ button {
   -o-transition: all 0.3s ease-out;
 }
 
-a:hover,
+a:hover, b:hover,
 button:hover {
   transition: all 0.3s ease-out;
   -webkit-transition: all 0.3s ease-out;
@@ -95,6 +100,13 @@ h3 {
   font-size: 24px;
 }
 
+h4{
+  font-family: "ManropeBold", sans-serif;
+  color: #000;
+  background: linear-gradient(90deg, #ae67fa 1.84%, #f49867 102.67%);
+  font-size: 24px;
+}
+
 p {
   font-size: 16px;
   color: #fff;
@@ -111,12 +123,18 @@ p {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
-  -o-border-radius: 5px;
+  -o-border-radius: 5px;  
 }
 
 .primary-btn {
   background-color: #ff4820;
 }
+
+.black-btn {
+  background-color: #000;
+  border-radius: 40px;  
+}
+
 
 .section {
   max-width: 1169px;
@@ -386,6 +404,27 @@ margin: 0 0 2rem;
   color: #f49867;
   border-bottom: 1px solid transparent;
 }
+
+/*Зарегистрируйтесь и начните исследовать безграничные возможности.*/
+
+.registration_panel{
+  display: flex;
+  flex-direction: column;
+  /*padding: 3rem;
+  margin: 6rem 0;
+  row-gap: 7rem;*/
+}
+
+.registration_panel .registration_panel_text .registration__panel__left__up_text{
+  font-size: 12px;
+}
+
+.registration_panel .registration_panel_text .right__cta_buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
 
 
 
