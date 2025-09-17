@@ -44,7 +44,14 @@ a {
   cursor: pointer;
 }
 
+b {
+  color: #0E0E0E;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 a,
+b,
 button {
   cursor: pointer;
   transition: all 0.3s ease-out;
@@ -55,6 +62,7 @@ button {
 }
 
 a:hover,
+b:hover,
 button:hover {
   transition: all 0.3s ease-out;
   -webkit-transition: all 0.3s ease-out;
@@ -95,6 +103,13 @@ h3 {
   font-size: 24px;
 }
 
+h4 {
+  font-family: "ManropeBold", sans-serif;
+  color: #000;
+  background: linear-gradient(90deg, #ae67fa 1.84%, #f49867 102.67%);
+  font-size: 24px;
+}
+
 p {
   font-size: 16px;
   color: #fff;
@@ -117,6 +132,12 @@ p {
 .primary-btn {
   background-color: #ff4820;
 }
+
+.black-btn {
+  background-color: #000;
+  border-radius: 40px;
+}
+
 
 .section {
   max-width: 1169px;
