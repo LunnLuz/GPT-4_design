@@ -501,6 +501,7 @@ p {
 
   .header {
     padding: 2rem;
+    flex-direction: column;
   }
 
   .header .header__logo .logo__link img {
@@ -1055,7 +1056,5 @@ p {
 /* Медиа запросы для адаптива */
 
 @media screen and (max-width: 1024px) {
-  .header {
-    flex-direction: column;
-  }
+
 }
