@@ -492,6 +492,15 @@ p {
   .exceeding_all_expectations .exceeding_all_expectations__right {
    margin-top: 17.5rem;
   }
+
+  .step_into_the_future {
+    margin: 10rem 0 0px;
+  }
+
+  .step_into_the_future .step_into_the_future__basement {
+  column-gap: 2rem;
+}
+
 }
 
 @media screen and (max-width: 1024px) {
@@ -608,10 +617,14 @@ p {
   }
 
   .exceeding_all__xpectations__img{
-    flex-direction: column;
-    justify-content: center;
-    column-gap: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 60%;
+  }
+
+  .step_into_the_future {
+    margin: 9rem 0 0px;
   }
 }
 
@@ -676,7 +689,10 @@ p {
     line-height: 1.5;
   }
 
-  
+  .step_into_the_future .step_into_the_future__basement {
+    column-gap: 1rem;
+  }
+
 
 }
 
@@ -728,6 +744,10 @@ p {
 
 
 
+  .step_into_the_future {
+    margin: 5rem 0 0px;
+  }
+
 }
 
 /*Превосходя все ожидания*/
@@ -774,12 +794,10 @@ p {
 .step_into_the_future {
   display: flex;
   flex-direction: column;
-  margin: 196px 0 0px;
 }
 
 .step_into_the_future .step_into_the_futur__heading__middle {
   display: flex;
-  white-space: pre-line;
   text-align: center;
   align-items: flex-start;
   justify-content: space-between;
@@ -837,13 +855,13 @@ p {
   flex: 288px;
   display: flex;
   flex-direction: column;
-  row-gap: 24px;
+  row-gap: 1.5rem;
 }
 
 .step_into_the_future .step_into_the_future__basement {
   display: flex;
-  column-gap: 2rem;
 }
+
 .step_into_the_future  .step_into_the_future_address {
   white-space: pre-line;
 }
@@ -852,39 +870,39 @@ p {
   flex: 180px;
   display: flex;
   flex-direction: column;
-  row-gap: 34px;
+  row-gap: 2rem;
 }
 
 .step_into_the_future .indoor_unit_links {
   display: flex;
   flex-direction: column;
-  row-gap: 25px;
+  row-gap: 1.5rem;
 }
 
 .step_into_the_future .step_into_the_future_company {
   flex: 141px;
   display: flex;
   flex-direction: column;
-  row-gap: 34px;
+  row-gap: 2rem;
 }
 
 .step_into_the_future .indoor_unit_company {
   display: flex;
   flex-direction: column;
-  row-gap: 25px;
+  row-gap: 1.5rem;
 }
 
 .step_into_the_future .step_into_the_future_contacts {
   display: flex;
   flex-direction: column;
-  row-gap: 34px;
+  row-gap: 2rem;
 }
 
 .step_into_the_future .indoor_unit_contacts {
   flex: 180px;
   display: flex;
   flex-direction: column;
-  row-gap: 25px;
+  row-gap: 1.5rem;
 }
 
 .step_into_the_future .address {
@@ -895,6 +913,7 @@ p {
 
 .foolder {
   display: flex;
+  margin: 1rem 0 0px;
 }
 
 .foolder .copyright {
