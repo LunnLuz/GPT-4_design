@@ -608,9 +608,9 @@ p {
   }
 
   .exceeding_all__xpectations__img{
-    flex-direction: column;
-    justify-content: center;
-    column-gap: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 60%;
   }
 }
