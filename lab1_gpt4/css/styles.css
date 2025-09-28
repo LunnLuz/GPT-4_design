@@ -201,7 +201,7 @@ p {
   justify-content: space-between;
   align-items: center;
   background: #031b34;
-  z-index: 1;
+  z-index: 9999;
 }
 
 .header .header-logo {
@@ -498,26 +498,28 @@ p {
   color: #81afdd;
 }
 
-
 @media screen and (max-width: 2560px) {
+
+  .exceeding_all_expectations{
+    align-items: flex-end;
+  }
 
   .exceeding_all_expectations .exceeding_all_expectations__right {
     margin-top: 17.5rem;
   }
 
- .step_into_the_future__basement {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-}
-
   .step_into_the_future {
     margin: 10rem 0 0px;
   }
 
-  .step_into_the_future .step_into_the_future__basement {
+  .step_into_the_future__basement {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
     column-gap: 2rem;
   }
+
+
 
   .blog_of_news {
     max-width: 1169px;
@@ -890,6 +892,7 @@ p {
   .exceeding_all_expectations {
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     column-gap: 0;
     width: 90%;
 
@@ -1038,22 +1041,20 @@ p {
     width: 100%;
     height: 100%;
     background: url("../assets/img/bignewsground.svg");
- 
+  }
 }
 
-  .exceeding_all_expectations {
-    flex-direction: column;
-    justify-content: center;
-    column-gap: 0;
-    width: 90%;
-
-  }
-
-  .exceeding_all_expectations .exceeding_all_expectations__right {
-    margin-top: 2rem;
-  }
+.exceeding_all_expectations {
+  column-gap: 0;
+  width: 90%;
 
 }
+
+.exceeding_all_expectations .exceeding_all_expectations__right {
+  margin-top: 2rem;
+}
+
+
 
 
 @media screen and (max-width: 768px) {
@@ -1115,11 +1116,12 @@ p {
     line-height: 1.5;
   }
 
-  .step_into_the_future__basement {
+  .step_into_the_future .step_into_the_future__basement {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 3em;
   }
+
 
 }
 
@@ -1424,6 +1426,7 @@ p {
 
 .step_into_the_future .step_into_the_future__logo {
   left: -40;
+  flex: 288px;
   display: flex;
   flex-direction: column;
   row-gap: 1.5rem;
@@ -1434,6 +1437,7 @@ p {
 }
 
 .step_into_the_future .step_into_the_future_links {
+  flex: 180px;
   display: flex;
   flex-direction: column;
   row-gap: 2rem;
@@ -1446,6 +1450,7 @@ p {
 }
 
 .step_into_the_future .step_into_the_future_company {
+  flex: 141px;
   display: flex;
   flex-direction: column;
   row-gap: 2rem;
@@ -1464,6 +1469,7 @@ p {
 }
 
 .step_into_the_future .indoor_unit_contacts {
+  flex: 180px;
   display: flex;
   flex-direction: column;
   row-gap: 1.5rem;
