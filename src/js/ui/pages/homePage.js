@@ -60,7 +60,7 @@ const homePage = () => {
   
   // инициализация раздела "Превышение всех ожиданий" с мок датой
   const exceeding_all_expectationsNode = rootNode.querySelector(".exceeding_all_expectations");
-  initFutureHere(exceeding_all_expectationsNode);
+  initExceeding(exceeding_all_expectationsNode);
   
   // инициализация раздела "Панель регистрации" с мок датой
   const registration_panelNode = rootNode.querySelector(".registration_panel");

@@ -1,11 +1,8 @@
-import whatIsGptData from "../../mockData/whatIsGptData.js";
-import { whatIsGptTemplate } from "../templates/whatIsGptTemplate.js";
+import { exceedingData } from "../../mockData/exceedingData.js";
+import { exceedingTemplate } from "../templates/exceedingTemplate.js";
 
-const initWhatIsGpt = (whatIsGptNode) => {
-  whatIsGptNode.insertAdjacentHTML(
-    "beforeend",
-    whatIsGptTemplate(whatIsGptData)
-  );
+const initExceeding = (exceeding_all_expectationsNode) => {
+  exceeding_all_expectationsNode.insertAdjacentHTML("beforeend", exceedingTemplate(exceedingData));
 };
 
-export default initWhatIsGpt;
+export default initExceeding;
