@@ -1,11 +1,8 @@
-import whatIsGptData from "../../mockData/whatIsGptData.js";
-import { whatIsGptTemplate } from "../templates/whatIsGptTemplate.js";
+import { registrationData } from "../../mockData/registrationData.js";
+import { registrationTemplate } from "../templates/registrationTemplate.js";
 
-const initWhatIsGpt = (whatIsGptNode) => {
-  whatIsGptNode.insertAdjacentHTML(
-    "beforeend",
-    whatIsGptTemplate(whatIsGptData)
-  );
+const initRegistration = (registration_panelNode) => {
+  registration_panelNode.insertAdjacentHTML("beforeend", registrationTemplate(registrationData));
 };
 
-export default initWhatIsGpt;
+export default initRegistration;

@@ -64,19 +64,19 @@ const homePage = () => {
   
   // инициализация раздела "Панель регистрации" с мок датой
   const registration_panelNode = rootNode.querySelector(".registration_panel");
-  initFutureHere(registration_panelNode);
+  initRegistration(registration_panelNode);
 
   // инициализация раздела "Новостной блог" с мок датой
   const blog_of_newsNode = rootNode.querySelector(".blog_of_new");
-  initFutureHere(blog_of_newsNode);
+  initBlog(blog_of_newsNode);
   
   // инициализация раздела "Шаг в будущее" с мок датой
   const step_into_the_futureNode = rootNode.querySelector(".step_into_the_future");
-  initFutureHere(step_into_the_futureNode);
+  initStep(step_into_the_futureNode);
   
   // инициализация раздела "Футер"
   const foolderNode = rootNode.querySelector(".foolder");
-  initFutureHere(foolderNode); 
+  initFoolder(foolderNode); 
 
   // инициализация бургера для адаптивного меню
   initBurger(headerNode);
