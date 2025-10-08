@@ -50,4 +50,4 @@ export const blogData = {
     blog_of_news_5containers_4newscontainerData,
     blog_of_news_5containers_5newscontainerData,
 };
-
+export default blogData;
