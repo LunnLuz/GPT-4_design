@@ -1,11 +1,11 @@
-import whatIsGptData from "../../mockData/whatIsGptData.js";
-import { whatIsGptTemplate } from "../templates/whatIsGptTemplate.js";
+import foolderData from "../../mockData/foolderData.js";
+import { foolderTemplate } from "../templates/foolderTemplate.js";
 
-const initWhatIsGpt = (whatIsGptNode) => {
-  whatIsGptNode.insertAdjacentHTML(
+const initFoolder = (foolderNode) => {
+  foolderNode.insertAdjacentHTML(
     "beforeend",
-    whatIsGptTemplate(whatIsGptData)
+    foolderTemplate(foolderData)
   );
 };
 
-export default initWhatIsGpt;
+export default initFoolder;
