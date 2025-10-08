@@ -1,20 +1,47 @@
-export const createHeaderTemplate = (header) => {
-  return `
-    <h4 class="header__right">
-      ${header}
-    </h4>
-  `;
+export const createRegistrationTopTemplate = ({ header, content }) => {
+  const template = `
+        <b href="#" class="top__content">
+            ${content}
+        </b>
+
+        <h4 class="top__header lined_header">
+            ${header}
+        </h4>
+
+    `;
+
+  return template;
 };
 
+export const createButtonTemplate = ({ title }) => {
+  const template = `
+    <button class="cta_buttons__signin btn black-btn"}">
+      ${title}
+    </button>
+  `;
+
+  return template;
+};
+
+
 export const registrationTemplate = ({
-  header,
+  registrationTopData,
+  registrationCtaButton
+
 }) => {
-  const headerTemplate = createHeaderTemplate(header);
+  const registrationTopTemplate = createRegistrationTopTemplate(registrationTopData);
+  const registrationCtaButtonTemplate = createButtonTemplate(registrationCtaButton);
+
 
   const resultTemplate = `
-    <div class="exceeding_all_expectations__right">
-        ${headerTemplate}  
-    </div>
+        <div class="registration_panel_center">
+           ${registrationTopTemplate}
+        </div>
+
+        <div class="right__cta_buttons">
+          ${registrationCtaButtonTemplate}
+        </div>
+
     `;
 
   return resultTemplate;

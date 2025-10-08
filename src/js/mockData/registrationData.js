@@ -1,6 +1,16 @@
-export const header =
-  "Превосходя все ожидания";
+const registrationTopData = {
+  header: "Зарегистрируйтесь и начните исследовать безграничные возможности.",
+  content: "Запросить ранний доступ",
+};
+
+const registrationCtaButton = {
+    title: "Начать",
+    href: "#",
+};
+
 
 export const registrationData = {
-  header,
+  registrationTopData,
+  registrationCtaButton,
+
 };

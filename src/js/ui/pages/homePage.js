@@ -24,7 +24,7 @@ const createHomePageTemplate = (rootNode) => {
 
     <section class="section exceeding_all_expectations"></section>
     <section class="section registration_panel buttom_header"></section>
-    <section class="section blog of news"></section>
+    <section class="section blog_of_news"></section>
     <section class="section step_into_the_future"></section>
     <section class="section foolder"></section>
   `;
@@ -67,7 +67,7 @@ const homePage = () => {
   initRegistration(registration_panelNode);
 
   // инициализация раздела "Новостной блог" с мок датой
-  const blog_of_newsNode = rootNode.querySelector(".blog_of_new");
+  const blog_of_newsNode = rootNode.querySelector(".blog_of_news");
   initBlog(blog_of_newsNode);
   
   // инициализация раздела "Шаг в будущее" с мок датой
