@@ -24,12 +24,12 @@ const createHomePageTemplate = (rootNode) => {
 
     <section class="section exceeding_all_expectations"></section>
     <section class="section registration_panel buttom_header"></section>
-    <section class="section blog of news"></section>
+    <section class="section blog_of_news"></section>
     <section class="section step_into_the_future"></section>
     <section class="section foolder"></section>
   `;
 
-  rootNode.insertAdjacentHTML("beforeend", template); 
+  rootNode.insertAdjacentHTML("beforeend", template);
 };
 
 const homePage = () => {
@@ -57,26 +57,26 @@ const homePage = () => {
   const futureHereNode = rootNode.querySelector(".future_here");
   initFutureHere(futureHereNode);
 
-  
+
   // инициализация раздела "Превышение всех ожиданий" с мок датой
   const exceeding_all_expectationsNode = rootNode.querySelector(".exceeding_all_expectations");
   initExceeding(exceeding_all_expectationsNode);
-  
+
   // инициализация раздела "Панель регистрации" с мок датой
   const registration_panelNode = rootNode.querySelector(".registration_panel");
   initRegistration(registration_panelNode);
 
   // инициализация раздела "Новостной блог" с мок датой
-  const blog_of_newsNode = rootNode.querySelector(".blog_of_new");
+  const blog_of_newsNode = rootNode.querySelector(".blog_of_news");
   initBlog(blog_of_newsNode);
-  
+
   // инициализация раздела "Шаг в будущее" с мок датой
   const step_into_the_futureNode = rootNode.querySelector(".step_into_the_future");
   initStep(step_into_the_futureNode);
-  
+
   // инициализация раздела "Футер"
   const foolderNode = rootNode.querySelector(".foolder");
-  initFoolder(foolderNode); 
+  initFoolder(foolderNode);
 
   // инициализация бургера для адаптивного меню
   initBurger(headerNode);

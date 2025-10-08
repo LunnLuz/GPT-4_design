@@ -1,11 +1,11 @@
-import whatIsGptData from "../../mockData/whatIsGptData.js";
-import { whatIsGptTemplate } from "../templates/whatIsGptTemplate.js";
+import blogData from "../../mockData/blogData.js";
+import { blogTemplate } from "../templates/blogTemplate.js";
 
-const initWhatIsGpt = (whatIsGptNode) => {
-  whatIsGptNode.insertAdjacentHTML(
+const initBlog = (blog_of_newsNode) => {
+  blog_of_newsNode.insertAdjacentHTML(
     "beforeend",
-    whatIsGptTemplate(whatIsGptData)
+    blogTemplate(blogData)
   );
 };
 
-export default initWhatIsGpt;
+export default initBlog;
