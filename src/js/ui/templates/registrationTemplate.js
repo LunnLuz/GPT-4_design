@@ -1,10 +1,10 @@
 export const createRegistrationTopTemplate = ({ header, content }) => {
   const template = `
-        <b href="#" class="top__content">
+        <b href="#" class="left__cta">
             ${content}
         </b>
 
-        <h4 class="top__header lined_header">
+        <h4 class="top__header">
             ${header}
         </h4>
 
