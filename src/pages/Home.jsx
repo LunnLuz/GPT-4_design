@@ -4,6 +4,7 @@ import Brands from "../components/Brands";
 import WhatIsChatGpt from "../components/WhatIsChatGpt";
 import FutureHere from "../components/FutureHere";
 
+import Exceeding from "../components/Exceeding"
 import Registration from "../components/Registration";
 
 
@@ -24,6 +25,9 @@ const Home = () => {
       </section>
       <section className="section future_here">
         <FutureHere />
+      </section>
+      <section className="section exceeding_all_expectations">
+        <Exceeding />
       </section>
       <section className="section registration_panel buttom_header">
         <Registration />
