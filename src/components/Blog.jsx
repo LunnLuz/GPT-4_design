@@ -37,6 +37,7 @@ export const News1Text = ({ blog_of_news_5containers_1newstextongroundData }) =>
   );
 };
 
+
 export const News2Text = ({ blog2containersData }) => {
   const { src, alt } = blog2containersData;
   return (
