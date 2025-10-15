@@ -6,6 +6,7 @@ import FutureHere from "../components/FutureHere";
 
 import Exceeding from "../components/Exceeding"
 import Registration from "../components/Registration";
+import Blog from "../components/Blog"
 
 
 const Home = () => {
@@ -31,6 +32,9 @@ const Home = () => {
       </section>
       <section className="section registration_panel buttom_header">
         <Registration />
+      </section>
+      <section className="section blog of news">
+        <Blog />
       </section>
     </>
   );
