@@ -1,3 +1,5 @@
+import GPT3 from "../assets/img/GPT-3.svg"
+
 const step_into_the_future__heading__middleData = {
     header: "Хотите Шагнуть в Будущее \n Раньше Других?"
 };
@@ -7,7 +9,7 @@ const step_into_the_futur__button__middleData = {
 
 const step_into_the_future__logoData = {
     alt: "logo_GPT-3",
-    src: "./assets/img/GPT-3.svg",
+    src: GPT3,
     href: "#",
     content_1: "ул. Профессора Поздеева, 13, к.Г, \n Пермь, Пермский край, 614013",
     content_2: "Все права защищены",

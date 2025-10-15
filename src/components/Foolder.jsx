@@ -1,11 +1,26 @@
-import foolderData from "../../mockData/foolderData.js";
-import { foolderTemplate } from "../templates/foolderTemplate.js";
+import {foolderData} from "../mockData/foolderData";
 
-const initFoolder = (foolderNode) => {
-  foolderNode.insertAdjacentHTML(
-    "beforeend",
-    foolderTemplate(foolderData)
+export const Copyrate = ({ copyrightData }) => {
+  const { header } = copyrightData;
+  return (
+    <>
+        <h6 class="copyright_text">
+            {header}
+        </h6>
+    </>
   );
 };
 
-export default initFoolder;
+const Foolder =() => {
+    const {copyrightData} = foolderData;
+
+    return (
+        <>
+            <div class="copyright">
+                <Copyrate copyrightData={copyrightData}/>
+            </div>
+        </>
+    );
+};
+
+export default Foolder;
