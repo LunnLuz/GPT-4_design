@@ -55,5 +55,9 @@
     "url": "https://github.com/emarkGroup/rks/issues"
   },
   "homepage": "https://github.com/emarkGroup/rks#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  }
 }
