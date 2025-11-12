@@ -55,7 +55,7 @@ const {
   postRegistrationData,
 } = require("../controllers/registrationDataController")
 
-router.route("/registration").get(getRegistrationData).post(postRegistrationData);
+router.route("/registration").get(getRegistrationData).post(postRegistrationgData);
 
 // Blog роутер
 const {
@@ -71,15 +71,13 @@ const {
   postStepData,  
 } = require("../controllers/stepDataController")
 
-router.route("/blog").get(getStepData).post(postStepData);
+router.route("/step").get(getStepData).post(postStepData);
 
-// Foolder роутер
 const {
   getFoolderData,
   postFoolderData,  
 } = require("../controllers/foolderDataController")
 
-router.route("/blog").get(getFoolderData).post(postFoolderData);
-
+router.route("/foolder").get(getFoolderData).post(postFoolderData);
 
 module.exports = router;
