@@ -5,4 +5,4 @@ const isExceedingDataValid = (data) => {
   isObjectHasProps(data.image, ["src", "alt"]);
 };
 
-module.exports = isVirtualRealityDataValid;
+module.exports = isExceedingDataValid;
