@@ -45,7 +45,7 @@ router.route("/what-is-gpt").get(getWhatIsGptData).post(postWhatIsGptData);
 const {
   getExceedingData,
   postExceedingData,
-} = require(../controllers/exceedingDataController)
+} = require("../controllers/exceedingDataController")
 
 router.route("/exceeding").get(getExceedingData).post(postExceedingData);
 
@@ -53,7 +53,7 @@ router.route("/exceeding").get(getExceedingData).post(postExceedingData);
 const {
   getRegistrationData,
   postRegistrationgData,
-} = require(../controllers/registrationDataController)
+} = require("../controllers/registrationDataController")
 
 router.route("/registration").get(getRegistrationData).post(postRegistrationgData);
 
@@ -61,7 +61,7 @@ router.route("/registration").get(getRegistrationData).post(postRegistrationgDat
 const {
   getBlogData,
   postBlogData,  
-} = require(../controllers/blogDataController)
+} = require("../controllers/blogDataController")
 
 router.route("/blog").get(getBlogData).post(postBlogData);
 
@@ -69,7 +69,7 @@ router.route("/blog").get(getBlogData).post(postBlogData);
 const {
   getStepData,
   postStepData,  
-} = require(../controllers/stepDataController)
+} = require("../controllers/stepDataController")
 
 router.route("/blog").get(getStepData).post(postpostStepDatalogData);
 
@@ -77,7 +77,7 @@ router.route("/blog").get(getStepData).post(postpostStepDatalogData);
 const {
   getFoolderData,
   postFoolderData,  
-} = require(../controllers/foolderDataController)
+} = require("../controllers/foolderDataController")
 
 router.route("/blog").get(getFoolderData).post(postFoolderData);
 
