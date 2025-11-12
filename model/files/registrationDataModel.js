@@ -7,10 +7,10 @@ const filePath = join(
   "..",
   "db",
   "files",
-  "exceedingData.json"
+  "registrationData.json"
 );
 
-const getExceedingDataModel = () => {
+const getRegistrationDataModel = () => {
   try {
     const file = readFileSync(filePath, "utf-8");
     return JSON.parse(file);
@@ -20,7 +20,7 @@ const getExceedingDataModel = () => {
   }
 };
 
-const postExceedingDataModel = (data) => {
+const postRegistrationDataModel = (data) => {
   try {
     writeFileSync(filePath, JSON.stringify(data));
   } catch (error) {
@@ -29,4 +29,4 @@ const postExceedingDataModel = (data) => {
   }
 };
 
-module.exports = { getExceedingDataModel, postExceedingDataModel };
+module.exports = { getRegistrationDataModel, postRegistrationDataModel };

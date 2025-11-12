@@ -52,7 +52,7 @@ router.route("/exceeding").get(getExceedingData).post(postExceedingData);
 // Registration роутер
 const {
   getRegistrationData,
-  postRegistrationgData,
+  postRegistrationData,
 } = require("../controllers/registrationDataController")
 
 router.route("/registration").get(getRegistrationData).post(postRegistrationgData);
@@ -71,7 +71,7 @@ const {
   postStepData,  
 } = require("../controllers/stepDataController")
 
-router.route("/blog").get(getStepData).post(postpostStepDatalogData);
+router.route("/blog").get(getStepData).post(postStepData);
 
 // Foolder роутер
 const {
@@ -80,5 +80,6 @@ const {
 } = require("../controllers/foolderDataController")
 
 router.route("/blog").get(getFoolderData).post(postFoolderData);
+
 
 module.exports = router;
