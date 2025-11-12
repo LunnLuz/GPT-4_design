@@ -7,7 +7,7 @@ const filePath = join(
   "..",
   "db",
   "files",
-  "exceedigData.json"
+  "exceedingData.json"
 );
 
 const getExceedingDataModel = () => {
